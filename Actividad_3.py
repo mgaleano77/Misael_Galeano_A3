@@ -20,7 +20,7 @@ class Actividad3:
         ruta_completa = os.path.join(self.ruta_resultados, nombre_archivo)
         with open(ruta_completa, "w", encoding="utf-8") as f:
             f.write(contenido)
-        print(f"✔️ Archivo guardado en: {ruta_completa}")
+        print(f"Archivo guardado en: {ruta_completa}")
 
 # 🔹 Crear instancia de la clase
 actividad = Actividad3()
