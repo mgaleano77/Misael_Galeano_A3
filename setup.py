@@ -14,7 +14,6 @@ setup(
         "requests",
         "matplotlib",
         "openpyxl",
-        "numpy"
         "io"
     ]
     
